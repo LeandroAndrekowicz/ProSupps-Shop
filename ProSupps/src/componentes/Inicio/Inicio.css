@@ -1,0 +1,107 @@
+@media (max-width: 800px) {
+    .container-inicio-logo{
+        display: none !important;
+    }
+
+    .container-inicio-input{
+        width: 100% !important;
+    }
+
+    .container-inicio-login{
+        display: none !important;
+    }
+}
+
+@media (max-width: 830px) {
+    .container-conta span{
+        font-size: 15px;
+    }
+}
+
+.container-inicio{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: #3a8ff0ab;
+}
+
+/*Logo */
+.container-inicio-logo{
+    width: 20%;
+    height: 15vh;
+    display: flex;
+}
+
+.img-logo{
+    background: url('./logo.png') no-repeat center;
+    background-size: 100%;
+    width: 100%;
+    height: 15vh;
+}
+
+/*Input*/
+.container-inicio-input{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 80%;
+    height: 6vh;
+    display: flex;
+    border-radius: 3em;
+    padding: 2em;
+}
+
+.icone-pesquisa{
+    width: 10%;
+    color: black;
+    height: 4vh;
+    cursor: pointer;
+}
+
+
+/*Login*/
+.container-inicio-login{
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-conta{
+    display: flex;
+    width: 70%;
+    padding: 10px;
+}
+
+.container-conta span{
+    padding: 1em;
+    margin: 0;
+}
+
+.conta{
+    display: flex;
+    width: 3vh;
+    height: 3vh;
+    margin-top: 10px;
+}
+
+.container-carrinho{
+    width: 30%;
+}
+
+.carrinho{
+    display: flex;
+    width: 100%;
+    height: 3vh;
+}
+
+.container-inicio-carousel{
+    display:inline-flex;
+}

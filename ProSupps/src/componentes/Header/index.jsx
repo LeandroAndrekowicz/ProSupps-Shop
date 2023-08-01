@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import {ImMenu} from 'react-icons/im'
+import {MdAccountCircle} from 'react-icons/md'
 
 const Header = () => {
   return (
@@ -12,18 +12,20 @@ const Header = () => {
         </div>
         <div className='container-header-menu'>
             <header className='header'>
-                <a className='logo' href="">dasdasd</a>
+                <a className='logo' href="">PROSUPPS</a>
                 <nav className='nav'>
                     <input type="checkbox" id='checkbox' className='checkbox'/>
-                    <label for="checkbox" className='label-menu'>
+                    <label htmlFor="checkbox" className='label-menu'>
                         Menu 
                         <span className='hamburguer'></span>
                     </label>
                     <ul className='menu'>
                         <li><a href="/">Inicio</a></li>
-                        <li><a href="/">Teste1</a></li>
-                        <li><a href="/">Teste2</a></li>
-                        <li><a href="/">Teste3</a></li>
+                        <li><a href="/">Lançamentos</a></li>
+                        <li><a href="/">Pré-treino</a></li>
+                        <li><a href="/">Creatina</a></li>
+                        <li><a href="/">Objetivos</a></li>
+                        <li className='acount'><a href="/" ><MdAccountCircle style={{width: '50px', height: '25px'}} /> Minha conta</a></li>
                     </ul>
                 </nav>
             </header>

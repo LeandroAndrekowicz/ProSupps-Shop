@@ -1,23 +1,27 @@
-@media (max-width: 500px) {
+
+@media (max-width: 800px) {
     .container-header-frase h1{
-        font-size: 15px !important;
+        font-size: 14px !important;
     }
     .container-header-frase{
         width: 100%;
-        height: 4.5vh !important;
+        height: 6vh !important;
     }
 
     /*Menu suspenso*/
     .menu{
-        display: none !important;
+        display: block !important;
         position: absolute;
-        top: 4.6875rem;
+        top: 8rem;
         left: 0;
-        background: aqua;
+        background: #2046df;
         text-align: center;
         width: 100%;
-        height: calc(100vh- 4.6875rem) !important;
+        height: 0 !important;
         z-index: 1;
+        visibility: hidden !important;
+        overflow-y: hidden !important;
+        transition: 0.5s !important;
     }
 
     .menu a{
@@ -25,6 +29,7 @@
         margin-inline: 1rem;
         border-bottom: 0.0625rem solid rgba(0,0,0,0.16);
         border-radius: 0;
+        color: white;
     }
     .label-menu {
         display: flex !important;
@@ -48,10 +53,30 @@
         height: 0.125rem;
         background: currentColor;
         margin-top: 0.3125rem;
+        position: relative;
+        transition: 0.3s;
     }
 
     .checkbox:checked ~ .menu{
-        display: block !important;
+        visibility: visible !important;
+        overflow-y: auto !important;
+        height: calc(100vh - 20em) !important;
+    }
+
+    .checkbox:checked ~ .label-menu .hamburguer{
+        border-top-color: transparent !important;
+    }
+
+    .checkbox:checked ~ .label-menu .hamburguer::before{
+        transform: rotate(135deg) !important;
+    }
+
+    .checkbox:checked ~ .label-menu .hamburguer::after{
+        transform: rotate(-135deg);
+        top: -0.4375rem !important;
+    }
+    .acount{
+        display:contents !important;
     }
 }
 
@@ -61,8 +86,9 @@
 
 .container-header{
     width: 100%;
-    height: 100vh;
+    height: 20vh;
     display: block;
+    background-color: #3a8ff0ab;
 }
 
 .container-header-frase{
@@ -78,7 +104,9 @@
     color: white;
 }
 
-
+.acount{
+    display: none;
+}
 
    /*Menu suspenso*/
 
@@ -91,7 +119,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: #2046df;
     padding: 1rem;
     height: 4.7rem;
 }
@@ -99,6 +127,7 @@ a{
 .logo{
     font-size: 1.5rem;
     font-weight: bold;
+    color: white;
 }
 
 .menu{
@@ -111,10 +140,12 @@ a{
     display: block;
     padding: 1rem;
     border-radius: 0.5rem;
+    color: white;
 }
 
 .menu a:hover{
-    background-color: aquamarine;
+    background-color: #2b53f1;
+    opacity: 70%;
 }
 
 
