@@ -9,7 +9,7 @@ class DemoCarousel extends Component {
     render() {
         return (
             <Carousel className='container-tudo' infiniteLoop={true} showStatus={false} autoPlay={true} renderIndicator={false} showArrows={false} showThumbs={false} >
-                <div>
+                <div className='container-img1'>
                     <div className='img-1'></div>
                 </div>
                 <div>

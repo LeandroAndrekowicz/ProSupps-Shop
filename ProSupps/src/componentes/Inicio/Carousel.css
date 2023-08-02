@@ -1,8 +1,7 @@
 
 .container-tudo{
     width: 100%;
-    height: 100vh;
-    background: #3a8ff0ab;
+    background-color: #3a8ff000;
 }
 
 
@@ -25,4 +24,11 @@
     width: 100%;
     height: 50vh;
     background-size: 100%;
+}
+
+.carousel.carousel-slider {
+    padding: 0;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
 }

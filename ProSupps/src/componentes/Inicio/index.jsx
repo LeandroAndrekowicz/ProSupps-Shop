@@ -5,6 +5,8 @@ import {BiSolidSearchAlt2} from 'react-icons/bi'
 import {BsFillCartFill} from 'react-icons/bs'
 import {MdAccountCircle} from 'react-icons/md'
 import Carousel from './Carousel'
+import Produtos from './Produtos'
+import Carousel2 from './Carousel2'
 
 const Inicio = () => {
   return (
@@ -31,7 +33,9 @@ const Inicio = () => {
         </div>
         <div className='container-carousel'>
           <Carousel />
+          <Carousel2/>
         </div>
+        <Produtos />
     </>
   )
 }

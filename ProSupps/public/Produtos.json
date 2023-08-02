@@ -1,0 +1,32 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "CREATINA MONOHIDRATADA 250G - GROWTH SUPPLEMENTS",
+            "preco": 79.92,
+            "estoque": 5,
+            "imagem": "./imagensTelaInicial/creatina-monohidratada.png"
+        },
+        {
+            "id": 2,
+            "nome": "WHEY PROTEIN CONCENTRADO (1KG) - GROWTH SUPPLEMENTS",
+            "preco": 99.00,
+            "estoque": 3,
+            "imagem":"./imagensTelaInicial/whey-protein.png"
+        },
+        {
+            "id": 3,
+            "nome": "PASTA DE AMENDOIM INTEGRAL TORRADO (1KG) - GROWTH SUPPLEMENTS",
+            "preco": 25.90,
+            "estoque": 10,
+            "imagem": "./imagensTelaInicial/pasta-de-amendoim.png"
+        },
+        {
+            "id": 4,
+            "nome": "BLEND VEGAN - GROWTH SUPPLEMENTS",
+            "preco": 78.60,
+            "estoque": 16,
+            "imagem":"./imagensTelaInicial/blendvegan.webp"
+        }
+]
+}

@@ -103,5 +103,7 @@
 }
 
 .container-inicio-carousel{
-    display:inline-flex;
+    display:flex;
+    padding: 0 !important;
+    margin: 0 !important;
 }
