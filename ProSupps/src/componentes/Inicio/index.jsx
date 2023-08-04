@@ -7,6 +7,8 @@ import {MdAccountCircle} from 'react-icons/md'
 import Carousel from './Carousel'
 import Produtos from './Produtos'
 import Carousel2 from './Carousel2'
+import Footer from '../Footer'
+import {produtos} from '../../../public/Produtos.json'
 
 const Inicio = () => {
   return (
@@ -35,7 +37,10 @@ const Inicio = () => {
           <Carousel />
           <Carousel2/>
         </div>
-        <Produtos />
+        <div className='container-rodape'>
+          <Produtos produtos={produtos}/>
+          <Footer/>
+        </div>
     </>
   )
 }

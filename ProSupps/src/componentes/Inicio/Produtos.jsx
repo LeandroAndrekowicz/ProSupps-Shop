@@ -1,28 +1,24 @@
 import React from 'react'
 import './Produtos.css'
-import {produtos} from '../../../public/Produtos.json'
 
-
-const Produtos = () => {
+const Produtos = ({produtos}) => {
   return (
-    <div className='main'>
-      <h1>Alguns produtos</h1>
-      {produtos.map((item) =>{
-        return(
-          <ul className='cards'>
-            <li className='cards_item'>
-              <div className='card_image'>
-                <img src={item.imagem} alt={item.nome} />
+    <div className='cards'>
+      <div className='cardGrid'>
+        {produtos.map((item) =>{
+          return(
+            <div className="card">
+              <div className='texto'>
+                <h2>{item.nome}</h2>
               </div>
-              <div className='card_content'>
-                <h2 className='card_title'>{item.nome}</h2>
-                <p className='card_text'>{item.preco}</p>
-                <button className='btn card_btn'>Ver mais</button>
+              <img src={item.imagem} alt={item.nome} />
+              <div className='textoPreco'>
+                <h2>R$ {item.preco}</h2>
               </div>
-            </li>
-          </ul>
-        )
-      })}
+            </div>
+          )
+        })}
+      </div>
     </div>
     )
 }

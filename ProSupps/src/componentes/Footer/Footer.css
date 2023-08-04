@@ -1,0 +1,114 @@
+@media (max-width: 1200px) {
+    .container-atendimento h2{
+        font-size: 20px;
+    }
+    .container-quem-somos h2{
+        font-size: 20px;
+    }
+    .container-formas-de-pagamento h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container-footer{
+        width: 100% !important;
+        display:flow-root!important;
+        background-color: #ebebe3 !important;
+    }
+    .container-atendimento{
+        width: 80% !important;
+    }
+    .container-atendimento p{
+        justify-content: center !important;
+    }
+
+    .container-quem-somos {
+        width: 80% !important;
+    }
+
+    .container-formas-de-pagamento{
+        width: 80% !important;
+    }
+    .formas-pagamento{
+        background-size: 60% !important;
+    }
+}
+
+
+.container-footer{
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+    background: #ebebe3;
+    border-top: solid;
+}
+
+.container-quem-somos{
+    margin: 30px;
+    display: block;
+    width: 33%;
+    justify-content: center;
+}
+
+.container-quem-somos p{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.container-quem-somos h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-atendimento{
+    margin: 30px;
+    display: block;
+    width: 33%;
+    justify-content: center;
+}
+
+.container-atendimento h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-atendimento p{
+    display: flex;
+    padding: 5px;
+}
+
+
+
+.encripted{
+    width: 100%;
+    height: 63px;
+    background: url('./lets-encrypt.png') no-repeat center;
+    background-size: 100% cover;
+}
+
+.container-formas-de-pagamento{
+    margin: 30px;
+    display: block;
+    width: 33%;
+    justify-content: center;
+}
+
+.container-formas-de-pagamento h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.formas-pagamento{
+    width: 100%;
+    height: 63px;
+    background: url('./payments.png') no-repeat center;
+    background-size: 100%;
+}
