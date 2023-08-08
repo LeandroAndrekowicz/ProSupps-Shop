@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../Header'
 import './Inicio.css'
 import {BiSolidSearchAlt2} from 'react-icons/bi'
-import {BsFillCartFill} from 'react-icons/bs'
+import {BsDashCircleDotted, BsFillCartFill} from 'react-icons/bs'
 import {MdAccountCircle} from 'react-icons/md'
 import Carousel from './Carousel'
 import Produtos from './Produtos'
@@ -11,6 +11,15 @@ import Footer from '../Footer'
 import {produtos} from '../../../public/Produtos.json'
 
 const Inicio = () => {
+
+  const [products, setProducts] = useState()
+
+  window.onload = () =>{
+    const data = produtos.filter((item) => item.id <= 4)
+    setProducts(data)
+  }
+
+
   return (
     <>
         <Header />
@@ -38,7 +47,9 @@ const Inicio = () => {
           <Carousel2/>
         </div>
         <div className='container-rodape'>
-          <Produtos produtos={produtos}/>
+          {
+            products &&           <Produtos produtos={products}/>
+          }
           <Footer/>
         </div>
     </>

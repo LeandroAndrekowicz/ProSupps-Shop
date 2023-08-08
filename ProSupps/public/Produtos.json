@@ -5,28 +5,112 @@
             "nome": "CREATINA MONOHIDRATADA 250G - GROWTH SUPPLEMENTS",
             "preco": 79.92,
             "estoque": 5,
-            "imagem": "./imagensTelaInicial/creatina-monohidratada.png"
+            "imagem": "../imagensTelaInicial/creatina-monohidratada.png",
+            "tag": "creatina-250g"
         },
         {
             "id": 2,
             "nome": "WHEY PROTEIN CONCENTRADO (1KG) - GROWTH SUPPLEMENTS",
             "preco": 99.00,
             "estoque": 3,
-            "imagem":"./imagensTelaInicial/whey-protein.png"
+            "imagem":"../imagensTelaInicial/whey-protein.png",
+            "tag": "whey-concentrado"
         },
         {
             "id": 3,
             "nome": "PASTA DE AMENDOIM INTEGRAL TORRADO (1KG) - GROWTH SUPPLEMENTS",
             "preco": 25.90,
             "estoque": 10,
-            "imagem": "./imagensTelaInicial/pasta-de-amendoim.png"
+            "imagem": "../imagensTelaInicial/pasta-de-amendoim.png",
+            "tag": "pasta-amendoim"
         },
         {
             "id": 4,
             "nome": "BLEND VEGAN - GROWTH SUPPLEMENTS",
             "preco": 78.60,
             "estoque": 16,
-            "imagem":"./imagensTelaInicial/blendvegan.webp"
+            "imagem":"../imagensTelaInicial/blendvegan.webp",
+            "tag": "blend-vegan"
+        },
+        {
+            "id": 5,
+            "nome": "MULTIVITAMINICO VEGANO 120COMP - GROWTH SUPPLEMENTS",
+            "preco": 67.54,
+            "estoque": 10,
+            "imagem": "../imagensLancamentos/multivitaminico-vegano.png",
+            "tag": "multivitaminico-veg"
+        },
+        {
+            "id": 6,
+            "nome": "MELATONINA GUMMY 30UN - GROWTH SUPPLEMENTS",
+            "preco": 36.10,
+            "estoque": 3,
+            "imagem":"../imagensLancamentos/melatonina-gummy.png",
+            "tag": "melatonina-gummy"
+        },
+        {
+            "id": 7,
+            "nome": "CHOCOLATE FIT - DISPLAY C/ 8UN. - GROWTH SUPPLEMENTS",
+            "preco": 24.99,
+            "estoque": 10,
+            "imagem": "../imagensLancamentos/chocolate-fit.png",
+            "tag": "chocolate-fit"
+        },
+        {
+            "id": 8,
+            "nome": "L-CARNITINA LÍQUIDA 2200 - 420ML - GROWTH SUPPLEMENTS",
+            "preco": 57.69,
+            "estoque": 16,
+            "imagem":"../imagensLancamentos/l-carnitina.png",
+            "tag": "l-carnitina"
+        },
+        {
+            "id": 9,
+            "nome": "PAÇOCA COM WHEY PROTEIN (DISPLAY C/ 12 UN)",
+            "preco": 29.70,
+            "estoque": 16,
+            "imagem":"../imagensLancamentos/pacoca.png",
+            "tag": "pacoca-whey"
+        },
+        {
+            "id": 10,
+            "nome": "PASTA DE AMENDOIM SABOR COOKIES 500G - GROWTH SUPPLEMENTS",
+            "preco": 28.30,
+            "estoque": 20,
+            "imagem":"../imagensLancamentos/pasta-de-amendoim.png",
+            "tag": "pasta-amendoim"
+        },
+        {
+            "id": 11,
+            "nome": "ÓLEO DE COCO SPRAY 100ML - GROWTH SUPPLEMENTS",
+            "preco": 18.50,
+            "estoque": 20,
+            "imagem":"../imagensLancamentos/oleo-de-coco-spray.png",
+            "tag": "oleo-coco"
+        },
+        {
+            "id": 12,
+            "nome": "BIG MASS PRO HIPERCALÓRICO 3KG - GROWTH SUPPLEMENTS",
+            "preco": 150.99,
+            "estoque": 20,
+            "imagem":"../imagensLancamentos/hipercalorico-3kg.png",
+            "tag": "hipercalorico-3kg"
+        },
+        {
+            "id": 13,
+            "nome": "PRÉ-TREINO INSANITY 300G - GROWTH SUPPLEMENTS",
+            "preco": 107.99,
+            "estoque": 20,
+            "imagem":"../imagensLancamentos/pr-treino-insanity.png",
+            "tag": "pre-treino-insanity"
+        },
+        {
+            "id": 14,
+            "nome": "QUITOSANA PSYLLIUM VIT 120 CAPS- GROWTH SUPPLEMENTS",
+            "preco": 100.98,
+            "estoque": 30,
+            "imagem":"../imagensLancamentos/quitosana-psyllium.png",
+            "tag": "quitosana-psyllium"
         }
 ]
 }
