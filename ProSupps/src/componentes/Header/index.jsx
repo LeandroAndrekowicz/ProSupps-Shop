@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <div className='container-header-menu'>
             <header className='header'>
-                <a className='logo' href="">PROSUPPS</a>
+                <a className='logo' href="/">PROSUPPS</a>
                 <nav className='nav'>
                     <input type="checkbox" id='checkbox' className='checkbox'/>
                     <label htmlFor="checkbox" className='label-menu'>
