@@ -90,17 +90,19 @@
 }
 
 .btn{
-    background: #eae3d2;
-    color: #292929;
+    background: #ebebe3;
+    color: black;
     border: none;
     text-transform: capitalize;
     font-size: 16px;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 1em;
 }
 
 .btn:hover{
-    background-color: #eedbaf;
+    opacity: .7;
+    background-color: #ebebe3;
 }
 
 @media (max-width: 1100px){
@@ -109,7 +111,7 @@
     }
     .product{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 5vh 0;
     }
     .product-img{

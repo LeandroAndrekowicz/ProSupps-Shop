@@ -30,6 +30,7 @@
     width: 20%;
     height: 15vh;
     display: flex;
+    cursor: pointer;
 }
 
 .img-logo{

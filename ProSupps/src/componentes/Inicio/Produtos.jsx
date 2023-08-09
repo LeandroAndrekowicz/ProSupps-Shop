@@ -18,7 +18,7 @@ const Produtos = ({produtos}) => {
                 </div>
                 <img src={item.imagem} alt={item.nome} />
                 <div className='textoPreco'>
-                  <h2>R$ {item.preco}</h2>
+                  <h2 className='preco'>R$ {item.preco}</h2>
                 </div>
             </div>
             </a>

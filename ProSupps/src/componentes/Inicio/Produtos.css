@@ -22,7 +22,7 @@
   place-content: center;
   align-content: center;
   justify-content: center;
-
+  padding-bottom: 3em;
 }
 
 .card img{
@@ -58,4 +58,13 @@
   height:150px;
   transition: .5s;
   filter: brightness( 70% );
+}
+
+.preco{
+    color: #10851ace;
+}
+
+.preco:hover{
+  opacity: .7;
+  color: #04500a;
 }

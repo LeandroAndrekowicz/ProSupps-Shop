@@ -1,0 +1,168 @@
+.container-whey-protein{
+    display: flex;
+    width: 100%;
+    padding: 7em
+}
+
+.container-texto-whey-protein{
+    display: block;
+    width: 50%;
+}
+
+.container-imagem-whey-protein{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.container-texto-whey-protein h2{
+    padding: 1em;
+    text-align: center;
+}
+
+.container-texto-whey-protein p{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: .5em;
+}
+
+.container-imagem-whey-protein img{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    opacity: .9;
+    transition: 1s;
+}
+
+.container-imagem-whey-protein img:hover{
+    -xpedu-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.container-texto-whey-protein li{
+    list-style: none;
+    cursor: pointer;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: .5em;
+    padding-top: .2em;
+    font-weight:500;
+}
+
+.container-texto-whey-protein li:hover{
+    opacity: .7;
+    color: rgb(39, 37, 37);
+}
+
+
+
+.container-whey-protein-secondary{
+    display: block;
+    width: 100%;
+    background-color: #c5c5b6;
+    border-top: solid 2px ;
+}
+
+.container-texto-secondary{
+    text-align: center;
+}
+
+.container-texto-secondary h2{
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+.container-texto-secondary p{
+    font-size: 1em;        
+}
+
+.container-lista{
+    width: 100%;
+    display: flex;
+    padding: .5em;
+}
+
+.container-lista li{
+    text-align: justify;
+    font-size: 1.2em;
+    list-style: none;
+    padding: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.container-lista li:hover{
+    opacity: 1;
+}
+
+.first-column{
+    width: 50%;
+    padding: 7em;
+}
+.secondary-column{
+    width: 50%;
+    padding: 7em;
+}
+.imagem-tela-pequena{
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .container-whey-protein{
+        display: inline-block;
+        padding: 3em;
+    }
+    .container-texto-whey-protein{
+        width: 100%;
+    }
+    .container-imagem-whey-protein{
+        width: 100%;
+    }
+    .imagem-tela-grande{
+        display: none;
+    }
+    .imagem-tela-pequena{
+        display: flex !important;
+        justify-content: center !important;
+        padding: 3em;
+    }
+    .container-lista li{
+        text-align: center;
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 900px){
+    .container-lista{
+        display: inline-block !important;
+    }
+    .container-lista li{
+        text-align: center !important;
+        padding: .4em;
+    }
+    .container-texto-secondary h2{
+        font-size: 2em;
+    }
+    .first-column{
+        width: 100% !important;
+        padding: 0;
+    }
+    .secondary-column{
+        width: 100% !important;
+        padding: 0;
+        margin-bottom: 3em;
+   }
+   .container-texto-secondary p{
+        padding: 1em !important;
+   }
+   .container-imagem-whey-protein img{
+    width: 300px;
+}
+.imagem-tela-pequena img{
+    width: 300px;
+}
+}
