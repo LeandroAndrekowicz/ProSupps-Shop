@@ -20,15 +20,6 @@
         },
         {
             "id": 3,
-            "nome": "PASTA DE AMENDOIM INTEGRAL TORRADO (1KG) - GROWTH SUPPLEMENTS",
-            "preco": 25.90,
-            "estoque": 10,
-            "imagem": "../imagensTelaInicial/pasta-de-amendoim.png",
-            "tag": "pasta-amendoim",
-            "categoria" : "pastaamendoim"
-        },
-        {
-            "id": 4,
             "nome": "BLEND VEGAN - GROWTH SUPPLEMENTS",
             "preco": 78.60,
             "estoque": 16,
@@ -37,7 +28,7 @@
             "categoria" : "blend"
         },
         {
-            "id": 5,
+            "id": 4,
             "nome": "MULTIVITAMINICO VEGANO 120COMP - GROWTH SUPPLEMENTS",
             "preco": 67.54,
             "estoque": 10,
@@ -46,7 +37,7 @@
             "categoria" : "multivitaminico"
         },
         {
-            "id": 6,
+            "id": 5,
             "nome": "MELATONINA GUMMY 30UN - GROWTH SUPPLEMENTS",
             "preco": 36.10,
             "estoque": 3,
@@ -55,16 +46,7 @@
             "categoria" : "melatonina"
         },
         {
-            "id": 7,
-            "nome": "CHOCOLATE FIT - DISPLAY C/ 8UN. - GROWTH SUPPLEMENTS",
-            "preco": 24.99,
-            "estoque": 10,
-            "imagem": "../imagensLancamentos/chocolate-fit.png",
-            "tag": "chocolate-fit",
-            "categoria" : "chocolate"
-        },
-        {
-            "id": 8,
+            "id": 6,
             "nome": "L-CARNITINA LÍQUIDA 2200 - 420ML - GROWTH SUPPLEMENTS",
             "preco": 57.69,
             "estoque": 16,
@@ -73,34 +55,7 @@
             "categoria" : "carnitina"
         },
         {
-            "id": 9,
-            "nome": "PAÇOCA COM WHEY PROTEIN (DISPLAY C/ 12 UN)",
-            "preco": 29.70,
-            "estoque": 16,
-            "imagem":"../imagensLancamentos/pacoca.png",
-            "tag": "pacoca-whey",
-            "categoria" : "pacoca"
-        },
-        {
-            "id": 10,
-            "nome": "PASTA DE AMENDOIM SABOR COOKIES 500G - GROWTH SUPPLEMENTS",
-            "preco": 28.30,
-            "estoque": 20,
-            "imagem":"../imagensLancamentos/pasta-de-amendoim.png",
-            "tag": "pasta-amendoim",
-            "categoria" : "pastaamendoim"
-        },
-        {
-            "id": 11,
-            "nome": "ÓLEO DE COCO SPRAY 100ML - GROWTH SUPPLEMENTS",
-            "preco": 18.50,
-            "estoque": 20,
-            "imagem":"../imagensLancamentos/oleo-de-coco-spray.png",
-            "tag": "oleo-coco",
-            "categoria" : "oleococo"
-        },
-        {
-            "id": 12,
+            "id": 7,
             "nome": "BIG MASS PRO HIPERCALÓRICO 3KG - GROWTH SUPPLEMENTS",
             "preco": 150.99,
             "estoque": 20,
@@ -109,7 +64,7 @@
             "categoria" : "hipercalorico"
         },
         {
-            "id": 13,
+            "id": 8,
             "nome": "PRÉ-TREINO INSANITY 300G - GROWTH SUPPLEMENTS",
             "preco": 107.99,
             "estoque": 20,
@@ -118,13 +73,30 @@
             "categoria" : "pretreino"
         },
         {
-            "id": 14,
+            "id": 9,
             "nome": "QUITOSANA PSYLLIUM VIT 120 CAPS- GROWTH SUPPLEMENTS",
             "preco": 100.98,
             "estoque": 30,
             "imagem":"../imagensLancamentos/quitosana-psyllium.png",
             "tag": "quitosana-psyllium",
             "categoria" : "quitosana"
+        },{
+            "id": 10,
+            "nome": "MULTIVITAMINICO GUMMY 30UN - GROWTH SUPPLEMENTS",
+            "preco": 37.65,
+            "estoque": 19,
+            "imagem": "../imagensLancamentos/multivitaminico.png",
+            "tag": "multivitaminico-gummy",
+            "categoria": "multivitaminico"
+        },
+        {
+            "id": 10,
+            "nome": "MULTIVITAMÍNICO (120 CÁPS) - GROWTH SUPPLEMENTS",
+            "preco": 33.90 ,
+            "estoque": 19,
+            "imagem": "../imagensLancamentos/multivitaminico-multi.png",
+            "tag": "multivitaminico-multi",
+            "categoria": "multivitaminico"
         }
 ]
 }

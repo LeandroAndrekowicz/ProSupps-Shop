@@ -14,7 +14,7 @@
     .container-footer{
         width: 100% !important;
         display:flow-root!important;
-        background-color: #ebebe3 !important;
+        background-color:#2b2b28 !important;
     }
     .container-atendimento{
         width: 80% !important;
@@ -40,7 +40,7 @@
 
     display: flex;
     width: 100%;
-    background: #ebebe3;
+    background: #2b2b28;
     border-top: solid;
 }
 

@@ -6,12 +6,20 @@ import Footer from "../Footer";
 import './Detalhes.css'
 import PreTreino from "./PreTreino";
 import { WheyProtein } from "./WheyProtein";
+import Carnitia from "./Carnitia";
+import Creatina from "./Creatina";
+import Hipercalorico from "./Hipercalorico";
+import Multivitaminico from "./Multivitaminico";
 
 
 export default function Detalhes(){
 
-    const [preTreino, setPreTreino] = useState(false) 
-    const [wheyProtein, setWheyProtein] = useState(false)
+    const [multivitaminico, setMultivitaminico] = useState(false)
+    const [hipercalorico, setHipercalorico] = useState(false)
+    const [preTreino, setPreTreino] = useState(false); 
+    const [wheyProtein, setWheyProtein] = useState(false);
+    const [carnitia, setCarnitia] = useState(false);
+    const [creatina, setCreatina] = useState(false)
     const [produtoSelecionado, setProdutoSelecionado] = useState({
         nome: '',
         preco: '',
@@ -33,6 +41,18 @@ export default function Detalhes(){
                 }
                 else if(item.categoria === 'wheyprotein'){
                     setWheyProtein(true)
+                }
+                else if(item.categoria === 'carnitina'){
+                    setCarnitia(true)
+                }
+                else if(item.categoria === 'creatina'){
+                    setCreatina(true)
+                }
+                else if(item.categoria === 'hipercalorico'){
+                    setHipercalorico(true)
+                }
+                else if(item.categoria === 'multivitaminico'){
+                    setMultivitaminico(true)
                 }
             }
         });
@@ -70,6 +90,10 @@ export default function Detalhes(){
             <div>
                 {preTreino && <PreTreino />}
                 {wheyProtein && <WheyProtein />}
+                {carnitia && <Carnitia />}
+                {creatina && <Creatina />}
+                {hipercalorico && <Hipercalorico />}
+                {multivitaminico && <Multivitaminico />}
             </div>
             <div>
                 <Footer />
