@@ -45,25 +45,25 @@ const CarouselObjetivos = () => {
     <div className='carousel'>
         <Slider {...settings}>
         <div className='box'>
-            <a href="/">
+            <a href="/objetivos/massa-muscular">
                 <div className='massamuscular'></div>
                 <h3>Massa Muscular</h3>
             </a>
         </div>
         <div className='box'>
-            <a href="/">
+            <a href="/objetivos/emagrecimento">
                 <div className='emagrecimento'></div>
                 <h3>Emagrecimento</h3>
             </a>
         </div>
         <div className='box'>
-            <a href="/">
+            <a href="/objetivos/energia">
                 <div className='energia'></div>
                 <h3>Energia</h3>
             </a>
         </div>
         <div className='box'>
-            <a href="/">
+            <a href="/objetivos/qualidade-de-vida">
                 <div className='qualidadevida'></div>
                 <h3>Qualidade de Vida</h3>
             </a>

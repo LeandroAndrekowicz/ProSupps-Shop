@@ -44,6 +44,12 @@
 .imagens-tela-pequena{
     display: none;
 }
+.risco{
+    justify-content: center;
+    height: 1vh;
+    width: 10%;
+    background-color: aqua;
+}
 
 @media (max-width: 1100px) {
     .container-carnitia{

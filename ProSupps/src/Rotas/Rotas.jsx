@@ -6,6 +6,7 @@ import Detalhes from "../componentes/DetalhesProdutos";
 import PreTreino from "../componentes/PreTreino";
 import Creatina from "../componentes/Creatina";
 import Objetivos from "../componentes/Objetivos";
+import MassaMuscular from "../componentes/Objetivos/MassaMuscular";
 
 
 export default function Rotas(){
@@ -18,6 +19,7 @@ export default function Rotas(){
                 <Route path="/pre-treino" element={<PreTreino />} />
                 <Route path="/creatina" element={<Creatina />} />
                 <Route path="/objetivos" element={<Objetivos />} />
+                <Route path="/objetivos/massa-muscular" element={<MassaMuscular />} />
             </Routes>
         </BrowserRouter>
     )
