@@ -1,0 +1,61 @@
+/*Carousel */
+.massamuscular{
+    background: url('./imagensObjetivos/MassaMuscular.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.emagrecimento{
+    background: url('./imagensObjetivos/Emagrecimento.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.energia{
+    background: url('./imagensObjetivos/Energia.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.qualidadevida{
+    background: url('./imagensObjetivos/QualidadeVida.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.carousel{
+    padding: 5rem;
+    color: black;
+    width: 100%;
+	background: #ebebe3; 
+}
+
+.box{
+    height: 300px;
+    display: flex;
+    padding: 1em;
+}
+
+.box h3{
+    text-align: center;
+}
+
+
+.slick-next{
+    right: -40px !important;
+}
+
+/* Objetivos */
+
+.container-objetivos{
+    background-color: #ebebe3;
+}
+
+.container-objetivos h2{
+    text-align: center;
+    font-size: 5em;
+}

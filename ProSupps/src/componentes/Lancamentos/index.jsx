@@ -23,11 +23,6 @@ const Lancamentos = () => {
         }
     });
 
-    const Inicio = () =>{
-        window.location.href = '/'
-    }
-
-
   return (
     <div className='container-lancamentos'>
         <div>
@@ -35,8 +30,10 @@ const Lancamentos = () => {
         </div>    
         <div>
             <div className='container-inicio'>
-                <div className='container-inicio-logo' onClick={() => Inicio}>
-                    <div className='img-logo' ></div>
+                <div className='container-inicio-logo'>
+                    <a href="/lancamentos">
+                        <div className='img-logo' ></div>
+                    </a>
                 </div>
                 <div className='container-inicio-input'>
                     <input type="text" className='input' placeholder='Digite o que deseja...'/>
@@ -44,11 +41,11 @@ const Lancamentos = () => {
                 </div>
                 <div className='container-inicio-login'>
                     <a href="/" className='container-conta'>
-                    <MdAccountCircle className='conta' />
-                    <span>Minha conta</span>
+                        <MdAccountCircle className='conta' />
+                        <span>Minha conta</span>
                     </a>
                     <a href="/" className='container-carrinho'>
-                    <BsFillCartFill className='carrinho'/>
+                        <BsFillCartFill className='carrinho'/>
                     </a>
                 </div>
             </div>

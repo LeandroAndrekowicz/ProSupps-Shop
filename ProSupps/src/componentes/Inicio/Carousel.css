@@ -2,6 +2,8 @@
 .container-tudo{
     width: 100%;
     background-color: #3a8ff000;
+    padding: 0;
+    border: none;
 }
 
 
@@ -9,21 +11,21 @@
     background: url('./Carousel.webp') no-repeat center;
     width: 100%;
     min-height: 50vh;
-    background-size: contain;
+    background-size: 100%;
 }
 
 .img-2{
     background: url('./carousel2.jpg') no-repeat center;
     width: 100%;
     min-height: 50vh;
-    background-size: contain;
+    background-size: 100%;
 }
 
 .img-3{
     background: url('./Carousel3.jpg') no-repeat center;
     width: 100%;
     min-height: 50vh;
-    background-size: contain;
+    background-size: 100% ;
 }
 
 .carousel.carousel-slider {
