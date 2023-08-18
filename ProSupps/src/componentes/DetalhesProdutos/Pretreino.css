@@ -1,4 +1,4 @@
-.container-pre-treino{
+.container-pre-treino-zz{
     display: flex;
     width: 100%;
     padding: 7em
@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 1100px) {
-    .container-pre-treino{
+    .container-pre-treino-zz{
         display: inline-block !important;
         padding: 1.5em;
         width: 100% !important;

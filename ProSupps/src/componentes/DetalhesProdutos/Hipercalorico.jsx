@@ -3,7 +3,7 @@ import React from 'react'
 const Hipercalorico = () => {
   return (
     <>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-texto-pre-treino'>
                 <h2><strong>O QUE É HIPERCALÓRICO?</strong></h2>
                 <p>Os suplementos hipercalóricos possuem uma combinação de carboidratos de alto valor glicêmico, proteína de alto valor biológico, vitaminas, aminoácidos e minerais.</p>
@@ -17,7 +17,7 @@ const Hipercalorico = () => {
                 <img src="../hipercalorico1.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
                 <img src="../hipercalorico2.png" alt="" className='imagens-tela-grande'/>
             </div>
@@ -31,7 +31,7 @@ const Hipercalorico = () => {
                 </div>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-texto-pre-treino'>
                 <h2><strong>COMO CONSUMIR SUPLEMENTO HIPERCALÓRICO?</strong></h2>
                 <p>A escolha dos horários, quantidades e como tomar hipercalórico pode variar de acordo com a sua programação e até mesmo com o produto escolhido. Em geral, eles podem ser consumidos em horários estratégicos ao longo do dia e não necessariamente no pré ou pós-treino.</p>

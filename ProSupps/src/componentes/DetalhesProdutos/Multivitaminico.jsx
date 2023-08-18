@@ -4,7 +4,7 @@ import './Multivitaminico.css'
 const Multivitaminico = () => {
   return (
     <>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-texto-pre-treino'>
                 <h2><strong>FONTE DE NUTRIENTES QUE AUXILIAM NA SUA RECUPERAÇÃO MUSCULAR</strong></h2>
                 <p>O Multivitamínico é um suplemento muito importante para a saúde, pois fornece nutrientes indispensáveis ao organismo, além de trazer possíveis benefícios para quem pratica atividades físicas.</p>
@@ -18,7 +18,7 @@ const Multivitaminico = () => {
                 <img src="../multivitaminico1.jpeg" alt="" className='imagens-tela-grande' id='teste'/>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
                 <img src="../multivitaminico2.png" alt="" className='imagens-tela-grande'/>
             </div>
@@ -33,7 +33,7 @@ const Multivitaminico = () => {
             </div>
         </div>
 
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-texto-pre-treino'>
                 <h2><strong>PARA QUE SERVE O MULTIVITAMÍNICO?</strong></h2>
                 <p>O multivitamínico é um suplemento que fornece nutrientes essenciais para o organismo, auxilia nas funções corporais, contribui na melhora do metabolismo energético, glicolítico, lipídico e proteico, ajuda nos treinos regulares e no desempenho muscular.</p>

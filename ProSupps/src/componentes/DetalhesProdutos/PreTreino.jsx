@@ -4,7 +4,7 @@ import './Pretreino.css'
 const PreTreino = () => {
   return (
     <>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-texto-pre-treino'>
                 <h2><strong>O QUE É PRÉ TREINO?</strong></h2>
                 <p>A nutrição é um dos principais pilares de um bom treino. Sem os nutrientes necessários, principalmente em horários estratégicos, é impossível garantir uma rotina de exercícios físicos intensos, bom desempenho e alcançar a hipertrofia. Nesse contexto, o que você escolhe para ingerir antes das suas atividades merece muito destaque.</p>
@@ -18,7 +18,7 @@ const PreTreino = () => {
                 <img src="../pretreino1.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
                 <img src="../pretreino2.png" alt="" className='imagens-tela-grande' />
             </div>
@@ -32,7 +32,7 @@ const PreTreino = () => {
                 </div>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-texto-pre-treino'>
                 <h2><strong>PRINCIPAIS NUTRIENTES NO PRÉ-TREINO</strong></h2>
                 <p>Os nutrientes essenciais também vão depender de vários fatores, principalmente dos objetivos de cada um — melhorar o desempenho, ganhar massa magra ou emagrecer, por exemplo. O que se pode dizer é que, de maneira geral, as pessoas precisam de substâncias que forneçam energia e atuem como estimulantes.</p>
@@ -55,7 +55,7 @@ const PreTreino = () => {
                 <img src="../pretreino3.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
                 <img src="../pretreino4.png" alt="" className='imagens-tela-grande'/>
             </div>
@@ -73,7 +73,7 @@ const PreTreino = () => {
                 </div>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-texto-pre-treino'>
                 <h2><strong>PRÉ-TREINO: INTERVALO ENTRE A INJESTÃO DE NUTRIENTES E O TREINO</strong></h2>
                 <p>Além das características individuais de quem treina e do estilo de exercício realizado, outro fator que influencia na escolha do que ingerir antes dos treinos é o intervalo entre a refeição e o início do exercício físico.</p>
@@ -86,7 +86,7 @@ const PreTreino = () => {
                 <img src="../pretreino5.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
-        <div className='container-pre-treino'>
+        <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
                 <img src="../pretreino6.png" alt="" className='imagens-tela-grande'/>
             </div>

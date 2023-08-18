@@ -44,7 +44,7 @@ const Creatina = () => {
                       <BiSolidSearchAlt2 className='icone-pesquisa'/>
                   </div>
                   <div className='container-inicio-login'>
-                      <a href="/" className='container-conta'>
+                      <a href="/minha-conta" className='container-conta'>
                           <MdAccountCircle className='conta' />
                           <span>Minha conta</span>
                       </a>

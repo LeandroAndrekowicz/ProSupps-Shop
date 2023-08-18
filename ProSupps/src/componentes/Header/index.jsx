@@ -25,7 +25,7 @@ const Header = () => {
                         <li><a href="/pre-treino">Pré-treino</a></li>
                         <li><a href="/creatina">Creatina</a></li>
                         <li><a href="/objetivos">Objetivos</a></li>
-                        <li className='acount'><a href="/" ><MdAccountCircle style={{width: '50px', height: '25px'}} /> Minha conta</a></li>
+                        <li className='acount'><a href="/minha-conta" ><MdAccountCircle style={{width: '50px', height: '25px'}} /> Minha conta</a></li>
                     </ul>
                 </nav>
             </header>
