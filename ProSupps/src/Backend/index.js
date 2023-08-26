@@ -6,8 +6,8 @@ import cors from 'cors';
 const db = createConnection({
     host: "localhost",
     user: "root",
-    password: "nene2023",
-    database: "Prosupps",
+    password: "root",
+    database: "prosupps",
 });
 
 app.use(cors());
@@ -19,11 +19,20 @@ app.post('/register/', (req, res) =>{
     const {senha} = req.body;
 
     let SQL = "INSERT INTO Usuarios (nome, usuario, senha) VALUES (?, ?, ?);"
-
-    db.query(SQL, [nome, usuario, senha], (err, result) =>{
-        console.log(err);
-        return res.json(result)
-    },)
+    try{
+        db.query(SQL, [nome, usuario, senha], (err, result) =>{
+            if(err){
+                console.log(err);
+                return res.status(422).json(err);
+            }
+            else{
+                return res.json(result)
+            }
+        },)
+    }
+    catch{
+        return false;
+    }
 })
 
 

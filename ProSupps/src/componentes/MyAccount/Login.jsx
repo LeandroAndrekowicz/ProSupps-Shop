@@ -14,7 +14,6 @@ export default function () {
   const [listUsers, setListUsers] = useState();
   const [usuario, setUsuario] = useState({});
   const [failure, setFailure] = useState(false);
-  const [validate, setValidate] = useState(false);
 
   useEffect(() =>{
     axios.get('http://localhost:8080/users/').then((res) =>{
@@ -41,42 +40,20 @@ export default function () {
   //Salva dados no banco
   const handleClickButton = () =>{
     event.preventDefault();
-    verificaLogin()
-    if(validate){
-        axios.post('http://localhost:8080/register/', data).then((res) =>{
-            console.log(res);
-            setSuccess(true);   
-            setFailure(false)
-        }).catch((err) =>{
-            console.log(err);
-        })
-    }
-    else{
-        setFailure(true)
-    }
+    axios.post('http://localhost:8080/register/', data).then((res) =>{
+        console.log(res);
+        setSuccess(true);   
+        setFailure(false);
+        if(res.AxiosError.response.status === 422){
+            console.log('Infernooooooooooooo');
+        }
+    }).catch((err) =>{
+        console.log(err);
+    });
   }
   console.log(usuario);
 
   //Verifica se o login esta correto
-  const verificaLogin = () =>{
-    event.preventDefault();
-    let parar = true;
-    console.log('entrou ');
-    listUsers.forEach((item) =>{
-        if(parar){
-            if(item.usuario === data.usuario){
-                setFailure(true);
-                setValidate(false);
-                parar = false;
-            }
-            else{
-                setValidate(true);
-            }
-        }
-    })
-
-  }
-
 
   const changeAuthMode = () => {
     setAuthMode(authMode === "signin" ? "signup" : "signin")
