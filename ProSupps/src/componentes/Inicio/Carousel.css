@@ -8,21 +8,21 @@
 
 
 .img-1{
-    background: url('./Carousel.webp') no-repeat center;
+    background: url('https://i.ibb.co/Src1N8n/Carousel.webp') no-repeat center;
     width: 100%;
     min-height: 50vh;
     background-size: 100%;
 }
 
 .img-2{
-    background: url('./carousel2.jpg') no-repeat center;
+    background: url('https://i.ibb.co/fFY1ZXW/carousel2.jpg') no-repeat center;
     width: 100%;
     min-height: 50vh;
     background-size: 100%;
 }
 
 .img-3{
-    background: url('./Carousel3.jpg') no-repeat center;
+    background: url('https://i.ibb.co/kmYDzX5/Carousel3.jpg') no-repeat center;
     width: 100%;
     min-height: 50vh;
     background-size: 100% ;

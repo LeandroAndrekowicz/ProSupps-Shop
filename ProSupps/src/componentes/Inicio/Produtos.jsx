@@ -1,6 +1,5 @@
 import React from 'react'
 import './Produtos.css'
-import { Link } from 'react-router-dom'
 
 const Produtos = ({produtos}) => {
   return (
@@ -10,13 +9,13 @@ const Produtos = ({produtos}) => {
           return(
             <a 
               href={`/produtos/${item.tag}`}
-              key={item.id}
+              key={item.idProdutos}
               className='cadaproduto'>
               <div className="card">
                 <div className='texto'>
-                  <h2>{item.nome}</h2>
+                  <h2>{item.produto}</h2>
                 </div>
-                <img src={item.imagem} alt={item.nome} />
+                <img src={item.URL} alt={item.produto} />
                 <div className='textoPreco'>
                   <h2 className='preco'>R$ {item.preco}</h2>
                 </div>

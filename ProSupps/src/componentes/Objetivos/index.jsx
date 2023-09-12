@@ -1,44 +1,16 @@
 import React from 'react'
-import { useState } from 'react'
 import './Objetivos.css'
 import Header from '../Header'
-import {BiSolidSearchAlt2} from 'react-icons/bi'
-import {MdAccountCircle} from 'react-icons/md'
-import {BsFillCartFill} from 'react-icons/bs'
 import CarouselObjetivos from './CarouselObjetivos'
 import Footer from '../Footer'
+import Pesquisa from '../Inicio/Inicio'
 
 const Objetivos = () => {
   return (
     <div>
         <div>
             <Header />
-        </div>
-        <div>
-          <div>
-            <div>
-              <div className='container-inicio'>
-                  <div className='container-inicio-logo'>
-                      <a href="/lancamentos">
-                          <div className='img-logo' ></div>
-                      </a>
-                  </div>
-                  <div className='container-inicio-input'>
-                      <input type="text" className='input' placeholder='Digite o que deseja...'/>
-                      <BiSolidSearchAlt2 className='icone-pesquisa'/>
-                  </div>
-                  <div className='container-inicio-login'>
-                      <a href="/minha-conta" className='container-conta'>
-                          <MdAccountCircle className='conta' />
-                          <span>Minha conta</span>
-                      </a>
-                      <a href="/" className='container-carrinho'>
-                          <BsFillCartFill className='carrinho'/>
-                      </a>
-                  </div>
-              </div>
-            </div>
-          </div>
+            <Pesquisa />
         </div>
         <div className='container-objetivos'>
             <h2>Qual seu Objetivo?</h2>
@@ -50,7 +22,7 @@ const Objetivos = () => {
                 <p>Embora seja possível comprar os suplementos alimentares como os suplementos vitamínicos, por exemplo, sem nenhuma prescrição, é importante estar atento às quantidades.</p>
                 <p>Isso porque caso você faça uso de suplementos vitamínicos, ou de qualquer outro tipo de complemento, de forma errada é possível tanto não obter o resultado desejado, como sofrer algum dano, principalmente em caso de uma dosagem acima do indicado, podendo causar intoxicações e até mesmo sobrecarga nos rins, já que ele é responsável por filtrar estas substâncias. Por isso, é importante seguir as orientações de um profissional. </p>
                 <div className='container-imagem-objetivos'>
-                    <img src="../imagensObjetivos/suplements1.png" alt="Imagem dos Suplementos" />
+                    <img src="https://i.ibb.co/wN58NW8/suplements1.png" alt="Imagem dos Suplementos" />
                 </div>
             </div>
         </div>

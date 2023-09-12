@@ -2,63 +2,51 @@ import React, { useEffect, useState } from 'react'
 import Footer from '../Footer'
 import Header from '../Header'
 import Produtos from  '../Inicio/Produtos.jsx'
-import {produtos} from '../../../public/Produtos.json'
-import {BiSolidSearchAlt2} from 'react-icons/bi'
-import {MdAccountCircle} from 'react-icons/md'
-import {BsDashCircleDotted, BsFillCartFill} from 'react-icons/bs'
-
 import './Lancamentos.css'
+import Pesquisa from '../Inicio/Inicio'
+import api from '../../service/api'
 
 const Lancamentos = () => {
 
-    const [haveProducts, setHaveProducts] = useState(false);
+    const [products, setProducts] = useState([]);
 
+    const getProducts = async () => {
+        try {
+          const res = await api.get('/products/');
+          setProducts(res.data);
+        } catch (err) {
+          console.error(err);
+        }
+      }
+    
+      const fetchData = async () => {
+        try {
+          await getProducts();
+        } catch (err) {
+          console.error(err);
+        }
+      }
+    
+      useEffect(() => {
+        fetchData();
+      }, []);
 
-    useEffect(() =>{
-        if(produtos.length > 0){
-            setHaveProducts(true);
-        }
-        else{
-            setHaveProducts(false);
-        }
-    });
 
   return (
     <div className='container-lancamentos'>
         <div>
             <Header />
+            <Pesquisa />
         </div>    
-        <div>
-            <div className='container-inicio'>
-                <div className='container-inicio-logo'>
-                    <a href="/lancamentos">
-                        <div className='img-logo' ></div>
-                    </a>
-                </div>
-                <div className='container-inicio-input'>
-                    <input type="text" className='input' placeholder='Digite o que deseja...'/>
-                    <BiSolidSearchAlt2 className='icone-pesquisa'/>
-                </div>
-                <div className='container-inicio-login'>
-                    <a href="/minha-conta" className='container-conta'>
-                        <MdAccountCircle className='conta' />
-                        <span>Minha conta</span>
-                    </a>
-                    <a href="/" className='container-carrinho'>
-                        <BsFillCartFill className='carrinho'/>
-                    </a>
-                </div>
-            </div>
-        </div>
         <div className='container-banner'>
             <a href="/lancamentos">
-                <img src="./banner.jpg" alt="Banner da pagina" />
+                <img src="https://i.ibb.co/M1fb69r/banner.jpg" alt="Banner da pagina" />
             </a>
         </div>
         {
-            haveProducts && 
+            products.length && 
             <div className='produtos-preco'> 
-                <Produtos produtos={produtos} />
+                <Produtos produtos={products} />
             </div>
         }
         <div>

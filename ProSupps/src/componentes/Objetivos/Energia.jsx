@@ -2,12 +2,14 @@ import React from 'react'
 import './Objetivos.css'
 import Header from '../Header'
 import Footer from '../Footer'
+import Pesquisa from '../Inicio/Inicio'
 
 const Energia = () => {
   return (
         <>
             <div>
                 <Header />
+                <Pesquisa />
             </div>
         <div>
             <div className='titulo'>
@@ -29,17 +31,17 @@ const Energia = () => {
                     <p>Muitas vezes, somente a alimentação não é suficiente para termos a energia necessária para encarar um treino pesado - e é aí que entram os suplementos. Esses produtos facilitam o dia a dia de quem quer aumentar o desempenho e alcançar o corpo tão desejado.</p>
                     <p>Vale lembrar que a prescrição deve ser feita pelo nutricionista, pois é o profissional capacitado para identificar as necessidades do organismo e suplementar de forma adequada.</p>
                     <div className='imagens-tela-pequena'>
-                        <img src="../imagensObjetivos/energia1.png" alt="" />
+                        <img src="https://i.ibb.co/6D9Mjm8/energia1.png" alt="" />
                     </div>
                 </div>
                 <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/energia1.png" alt="" className='imagens-tela-grande' />
+                    <img src="https://i.ibb.co/6D9Mjm8/energia1.png" alt="" className='imagens-tela-grande' />
                 </div>
             </div>
             <div>
                 <div className='container-objetivo-especifico'>
                     <div className='container-imagem-especifica'>
-                        <img src="../imagensObjetivos/energia2.png" alt="" className='imagens-tela-grande' />
+                        <img src="https://i.ibb.co/2NMZHbk/energia2.png" alt="" className='imagens-tela-grande' />
                     </div>
                     <div className='container-texto-objetivo-especifico'>
                         <h3>QUAIS SÃO OS MELHORES SUPLEMENTOS ENERGÉTICOS?</h3>
@@ -53,7 +55,7 @@ const Energia = () => {
                         <p>- Maltodextrina: produzido da mandioca, milho, batata e arroz, evita a fadiga e favorece a absorção de aminoácidos</p>
                         <p>- Dextrose: tem absorção rápida e é feito da hidrólise do milho, batata ou mandioca.</p>
                         <div className='imagens-tela-pequena'>
-                            <img src="../imagensObjetivos/energia2.png" alt="" />
+                            <img src="https://i.ibb.co/2NMZHbk/energia2.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -71,18 +73,18 @@ const Energia = () => {
                         <p>A pasta de amendoim é um dos alimentos queridinhos de quem treina pesado, e não é à toa. É feita com a leguminosa que é rica em gorduras boas, que fornecem energia de longa duração para os treinos.</p>
                         <p>Sendo assim, muitas pessoas a utilizam nas refeições que antecedem os exercícios para ter energia enquanto durar as séries. Além disso, serve como base para a preparação de pratos fits doces e salgados.</p>
                         <div className='imagens-tela-pequena'>
-                            <img src="../imagensObjetivos/energia3.png" alt="" />
+                            <img src="https://i.ibb.co/d2vffsy/energia3.png" alt="" />
                         </div>
                     </div>
                     <div className='container-imagem-especifica'>
-                        <img src="../imagensObjetivos/energia3.png" alt="" className='imagens-tela-grande' />
+                        <img src="https://i.ibb.co/d2vffsy/energia3.png" alt="" className='imagens-tela-grande' />
                     </div>
                 </div>
             </div>
             <div>
                 <div className='container-objetivo-especifico'>
                     <div className='container-imagem-especifica'>
-                        <img src="../imagensObjetivos/energia4.png" alt="" className='imagens-tela-grande' />
+                        <img src="https://i.ibb.co/KzpDvxs/energia4.png" alt="" className='imagens-tela-grande' />
                     </div>
                     <div className='container-texto-objetivo-especifico'>
                         <h3>PARA QUEM ESSES SUPLEMENTOS SÃO RECOMENDADOS?</h3>
@@ -109,7 +111,7 @@ const Energia = () => {
                         <p>- Retarda a fadiga</p>
                         <p>- Combate o cansaço</p>
                         <div className='imagens-tela-pequena'>
-                            <img src="../imagensObjetivos/energia4.png" alt="" />
+                            <img src="https://i.ibb.co/KzpDvxs/energia4.png" alt="" />
                         </div>
                     </div>
                 </div>

@@ -11,16 +11,16 @@ const Carnitia = () => {
                 <p>Ao participar da formação de energia durante o exercício, podemos observar até mesmo uma melhora do desempenho dependendo do individuo e das características do treinamento que está sendo realizado.</p>
                 <p>A suplementação de L-Carnitina líquida também pode ser uma estratégia interessante no processo de recuperação após a prática de exercícios físicos, já que ela pode ajudar na prevenção de lesões musculares porque ajuda na recuperação muscular.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../carnitia.png" alt="" />
+                    <img src="https://i.ibb.co/dLJkCqG/carnitia.png" alt="" />
                 </div>
             </div>
             <div className='container-imagem-carnitia'>
-                <img src="../carnitia.png" alt="" className='imagens-tela-grande' />
+                <img src="https://i.ibb.co/dLJkCqG/carnitia.png" alt="" className='imagens-tela-grande' />
             </div>
         </div>
         <div className='container-carnitia2'>
             <div className='container-imagem-carnitia'>
-                <img src="../carnitia2.png" alt="" className='imagens-tela-grande' />
+                <img src="https://i.ibb.co/LRsGPGp/carnitia2.png" alt="" className='imagens-tela-grande' />
             </div>
             <div className='container-texto-carnitia'>
                 <h2><strong>L-CARNITINA LÍQUIDA: BENEFÍCIOS PARA A SAÚDE</strong></h2>
@@ -29,7 +29,7 @@ const Carnitia = () => {
                 <p>Mas não são apenas os idosos que podem se favorecer com a perda de peso. Algumas pesquisas científicas apontam que a perda de peso em adultos pode estar associada ou pode ser melhorada com a suplementação de carnitina.</p>
                 <p>Outro aspecto relevante é a sua capacidade de auxiliar na manutenção da saúde do coração. De acordo com pesquisas científicas envolvendo a substância, ela tem potencial para fazer parte da terapia dietética de redução de pressão arterial e combate ao processo inflamatório associado a doenças cardíacas, consulte seu médico.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../carnitia2.png" alt="" />
+                    <img src="https://i.ibb.co/LRsGPGp/carnitia2.png" alt="" />
                 </div>
             </div>
         </div>

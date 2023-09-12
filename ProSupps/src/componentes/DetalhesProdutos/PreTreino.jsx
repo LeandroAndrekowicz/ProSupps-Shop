@@ -11,16 +11,16 @@ const PreTreino = () => {
                 <p>A importância da alimentação e da suplementação no período anterior aos treinos é tão importante que recebeu uma denominação própria, ficando conhecida como “pré-treino”. Essa importância se deve ao fato de que durante prática de exercícios como a musculação, o corpo realiza esforços intensos, aumentando a sua demanda de nutrientes e de energia.</p>
                 <p>Essa energia poderá ser produzida por diferentes vias energéticas, mas a melhor forma é obtê-la por meio de alimentos e suplementos de boa procedência. Dessa forma, investir em alimentos e em suplementos pré-treino de qualidade é uma das melhores maneiras de garantir bons treinos e, consequentemente, ter os melhores resultados.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../pretreino1.png" alt=""/>
+                    <img src="https://i.ibb.co/YQDNGff/pretreino1.png" alt=""/>
                 </div>
             </div>
             <div className='container-imagem-pre-treino'>
-                <img src="../pretreino1.png" alt="" className='imagens-tela-grande'/>
+                <img src="https://i.ibb.co/YQDNGff/pretreino1.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
         <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
-                <img src="../pretreino2.png" alt="" className='imagens-tela-grande' />
+                <img src="https://i.ibb.co/px86w6t/pretreino2.png" alt="" className='imagens-tela-grande' />
             </div>
             <div className='container-texto-pre-treino'>
                 <h2><strong>O QUE CONSUMIR NO PRÉ-TREINO?</strong></h2>
@@ -28,7 +28,7 @@ const PreTreino = () => {
                 <p>No entanto, é recomendado a ingestão de, pelo menos, dois macronutrientes — carboidratos e proteínas. Essa recomendação é baseada no fato de que os carboidratos correspondem à via preferencial de obtenção energética e de que as proteínas participam da síntese e composição dos tecidos musculares.</p>
                 <p>Isso significa que o consumo desses dois macronutrientes possibilitará treinos de qualidade e a melhor preservação dos músculos durante os esforços.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../pretreino2.png" alt=""/>
+                    <img src="https://i.ibb.co/px86w6t/pretreino2.png" alt=""/>
                 </div>
             </div>
         </div>
@@ -48,16 +48,16 @@ const PreTreino = () => {
                     <li>Cromo</li>
                 </ul>
                 <div className='imagens-tela-pequena'>
-                    <img src="../pretreino3.png" alt=""/>
+                    <img src="https://i.ibb.co/7p1wkCL/pretreino3.png" alt=""/>
                 </div>
             </div>
             <div className='container-imagem-pre-treino'>
-                <img src="../pretreino3.png" alt="" className='imagens-tela-grande'/>
+                <img src="https://i.ibb.co/7p1wkCL/pretreino3.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
         <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
-                <img src="../pretreino4.png" alt="" className='imagens-tela-grande'/>
+                <img src="https://i.ibb.co/qyd4XZf/pretreino4.png" alt="" className='imagens-tela-grande'/>
             </div>
             <div className='container-texto-pre-treino'>
                 <h2><strong>COMO EQUILIBRAR OS NUTRIENTES NO PRÉ-TREINO?</strong></h2>
@@ -69,7 +69,7 @@ const PreTreino = () => {
                     <li>45 a 15 minutos antes, consumo de aproximadamente 60g de carboidratos</li>
                 </ul>
                 <div className='imagens-tela-pequena'>
-                    <img src="../pretreino4.png" alt=""/>
+                    <img src="https://i.ibb.co/qyd4XZf/pretreino4.png" alt=""/>
                 </div>
             </div>
         </div>
@@ -79,23 +79,23 @@ const PreTreino = () => {
                 <p>Além das características individuais de quem treina e do estilo de exercício realizado, outro fator que influencia na escolha do que ingerir antes dos treinos é o intervalo entre a refeição e o início do exercício físico.</p>
                 <p>Períodos iguais ou maiores do que 90 minutos podem receber combinações de alimentos ou suplementos que são fontes de proteínas e carboidratos. Para os carboidratos, vale apostar em batata-doce, mandioca, arroz integral e também em versões em gel ou em pó. As carnes bovinas, o ovo, o frango ou os suplementos proteicos serão úteis para o aporte de proteínas.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../pretreino5.png" alt=""/>
+                    <img src="https://i.ibb.co/WB2F5T4/pretreino5.png" alt=""/>
                 </div>
             </div>
             <div className='container-imagem-pre-treino'>
-                <img src="../pretreino5.png" alt="" className='imagens-tela-grande'/>
+                <img src="https://i.ibb.co/WB2F5T4/pretreino5.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
         <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
-                <img src="../pretreino6.png" alt="" className='imagens-tela-grande'/>
+                <img src="https://i.ibb.co/QkLSRXB/pretreino6.png" alt="" className='imagens-tela-grande'/>
             </div>
             <div className='container-texto-pre-treino'>
                 <h2><strong></strong></h2>
                 <p>Para intervalos de 90 a 45 minutos, se for optar por alimentos, inclua apenas aqueles de fácil digestão para evitar enjoos e sensações de mal-estar durante os treinos. Por exemplo: arroz branco, batata-inglesa ou tapioca acompanhada de clara de ovo, leite desnatado ou derivados sem gordura.</p>
                 <p>Se o intervalo for menor do que 45 minutos é indicado o uso de suplementos. São eles a Maltodextrina e Dextrose, acompanhadas de Whey Protein e os suplementos próprios para pré-treino.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../pretreino6.png" alt=""/>
+                    <img src="https://i.ibb.co/QkLSRXB/pretreino6.png" alt=""/>
                 </div>
             </div>
         </div>

@@ -11,16 +11,16 @@ const Multivitaminico = () => {
                 <p>Quem deseja ter um corpo saudável, com mais qualidade de vida e bem estar, precisa ter diariamente uma dieta rica em alimentos de alto valor nutricional, ricos em vitaminas e minerais.</p>
                 <p>O Gummy Multivitamínico para você complementar os cuidados e manutenção da sua saúde, de forma gostosa e prática, para aqueles momentos em que o consumo alimentar não for suficiente.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../multivitaminico1.jpeg" alt="" className='multi1'/>
+                    <img src="https://i.ibb.co/sbfZv3J/multivitaminico1.jpg" alt="" className='multi1'/>
                 </div>
             </div>
             <div className='container-imagem-pre-treino'>
-                <img src="../multivitaminico1.jpeg" alt="" className='imagens-tela-grande' id='teste'/>
+                <img src="https://i.ibb.co/sbfZv3J/multivitaminico1.jpg" alt="" className='imagens-tela-grande' id='teste'/>
             </div>
         </div>
         <div className='container-pre-treino-zz'>
             <div className='container-imagem-pre-treino'>
-                <img src="../multivitaminico2.png" alt="" className='imagens-tela-grande'/>
+                <img src="https://i.ibb.co/4mkWFPq/multivitaminico2.png" alt="" className='imagens-tela-grande'/>
             </div>
             <div className='container-texto-pre-treino'>
                 <p>Embora muitos não saibam, estes nutrientes têm uma grande relação com a hipertrofia.</p>
@@ -28,7 +28,7 @@ const Multivitaminico = () => {
                 <p>O nosso Multivitamínico contribui de forma direta na regeneração dos músculos logo após os treinos. Ao possibilitar melhor recuperação, ele possibilita uma maior intensidade das atividades físicas e auxilia no ganho de massa muscular.</p>
                 <p>Com uma dose diária do Gummy Multivitamínico, você complementa a dieta e ainda por cima, com um delicioso sabor Morango.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../multivitaminico2.png" alt="" className='multi1'/>
+                    <img src="https://i.ibb.co/4mkWFPq/multivitaminico2.png" alt="" className='multi1'/>
                 </div>
             </div>
         </div>
@@ -41,11 +41,11 @@ const Multivitaminico = () => {
                 <p>O <strong>gummy de vitaminas</strong> também favorece o combate aos radicais livres do organismo, porque algumas vitaminas têm ação antioxidante. Além de auxiliar no bom funcionamento de defesa do organismo e no processo de divisão celular, ele contribui na manutenção da pele, dos músculos, dos ossos e das mucosas, visando promover a saúde, e assim, contribuindo para a diminuição do desenvolvimento de doenças.</p>
                 <p>Desse modo, o uso do multivitamínico, associado a uma dieta balanceada e à prática regular de exercícios físicos, colabora para uma nutrição mais rica em minerais e vitaminas, assim como para a conquista dos seus objetivos físicos.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../multivitaminico3.png" alt="" className='multi1'/>
+                    <img src="https://i.ibb.co/rQNvzhJ/multivitaminico3.png" alt="" className='multi1'/>
                 </div>
             </div>
             <div className='container-imagem-pre-treino'>
-                <img src="../multivitaminico3.png" alt="" className='imagens-tela-grande'/>
+                <img src="https://i.ibb.co/rQNvzhJ/multivitaminico3.png" alt="" className='imagens-tela-grande'/>
             </div>
         </div>
     </>

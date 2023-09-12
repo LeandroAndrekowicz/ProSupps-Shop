@@ -2,6 +2,7 @@ import React from 'react'
 import './Objetivos.css'
 import Header from '../Header'
 import Footer from '../Footer'
+import Pesquisa from '../Inicio/Inicio'
 
 
 const Emagracimento = () => {
@@ -9,6 +10,7 @@ const Emagracimento = () => {
     <div>
         <div>
             <Header />
+            <Pesquisa />
         </div>
         <div>
             <div className='titulo'>
@@ -27,17 +29,17 @@ const Emagracimento = () => {
                     <p>Isso irá ajudar a potencializar seu emagrecimento e a definição muscular. Por mais que você faça exercícios para definir a musculatura, ela só ficará evidente quando você conseguir eliminar a gordura existente.</p>
                     <p>Os <strong>suplementos para definir</strong> a musculatura devem ser usados em todos os dias que o treino seja realizado. Eles são indispensáveis para garantir o suprimento nutricional adequado para uma boa recuperação muscular. Eles também garantem músculos mais fortes e aumentam a hipertrofia.</p>
                     <div className='imagens-tela-pequena'>
-                        <img src="../imagensObjetivos/emagrecimento1.webp" alt="" />
+                        <img src="https://i.ibb.co/Xs2SRfB/emagrecimento1.webp" alt="" />
                     </div>
                 </div>
                 <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/emagrecimento1.webp" alt="" className='imagens-tela-grande' />
+                    <img src="https://i.ibb.co/Xs2SRfB/emagrecimento1.webp" alt="" className='imagens-tela-grande' />
                 </div>
             </div>
             <div>
                 <div className='container-objetivo-especifico'>
                     <div className='container-imagem-especifica'>
-                        <img src="../imagensObjetivos/emagrecimento2.webp" alt="" className='imagens-tela-grande' />
+                        <img src="https://i.ibb.co/GRBbPmb/emagrecimento2.webp" alt="" className='imagens-tela-grande' />
                     </div>
                     <div className='container-texto-objetivo-especifico'>
                         <h3>Quais são os melhores suplementos para emagrecer?</h3>
@@ -49,7 +51,7 @@ const Emagracimento = () => {
                         <p>O Whey Protein é uma excelente fonte de proteínas e é altamente indicado para quem deseja alcançar a hipertrofia. E ele também é um excelente auxiliar para o emagrecimento, já que ele aumenta a saciedade, evitando se alimentar fora do horário.</p>
                         <p>Durante a síntese proteica realizada pela ingestão do <strong>Whey Protein</strong>, ele acaba aumentando o gasto calórico e acelerando o metabolismo. Então se você quer emagrecer e ganhar massa muscular magra o Whey Protein é um excelente auxiliar!</p>
                         <div className='imagem-tela-pequena'>
-                            <img src="../imagensObjetivos/emagrecimento2.webp" alt=""/>
+                            <img src="https://i.ibb.co/GRBbPmb/emagrecimento2.webp" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -66,18 +68,18 @@ const Emagracimento = () => {
                     <h3>Óleo de Cártamo ajuda a perder peso?</h3>
                     <p>Sim, ele é um ótimo auxiliar no processo de emagrecimento, ele ajuda a reduzir a gordura abdominal, uma das gorduras mais difíceis de se perder. Para que ele tenha bons resultados no emagrecimento o recomendado é ingerir duas cápsulas por dia, 30 minutos antes das principais refeições.</p>
                     <div className='imagem-tela-pequena'>
-                        <img src="../imagensObjetivos/emagrecimento3.webp" alt=""/>
+                        <img src="https://i.ibb.co/f9zdc3L/emagrecimento3.webp" alt=""/>
                     </div>
                 </div>
                 <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/emagrecimento3.webp" alt="" className='imagens-tela-grande' />
+                    <img src="https://i.ibb.co/f9zdc3L/emagrecimento3.webp" alt="" className='imagens-tela-grande' />
                 </div>
             </div>
         </div>
         <div>
             <div className='container-objetivo-especifico'>
                 <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/emagrecimento4.webp" alt="" className='imagens-tela-grande' />
+                    <img src="https://i.ibb.co/PMFhrv5/emagrecimento4.webp" alt="" className='imagens-tela-grande' />
                 </div>
                 <div className='container-texto-objetivo-especifico'>
                     <h3>Quais suplementos para emagrecer são mais utilizados?</h3>
@@ -93,7 +95,7 @@ const Emagracimento = () => {
                     <p>Elas não podem abrir mão dos termogênicos, do Óleo de Cártamo, do ZMA, Ômega 3, L-Carnitina e de suplementos a base de proteína que aumentam a saciedade.</p>
                     <p>Elas também não podem esquecer de tomar o <strong>Colágeno Hidrolisado</strong> para manter a pele sempre firme e bonita.</p>
                     <div className='imagem-tela-pequena'>
-                        <img src="../imagensObjetivos/emagrecimento4.webp" alt=""/>
+                        <img src="https://i.ibb.co/PMFhrv5/emagrecimento4.webp" alt=""/>
                     </div>
                 </div>
             </div>
@@ -110,11 +112,11 @@ const Emagracimento = () => {
                     <p>Os termogênicos, aumentam o gasto calórico e aceleram o metabolismo, entre eles, podemos citar, os suplementos a base de cafeína, chá-verde, óleo de cártamo, Ômega 3 e L-Carnitina.</p>
                     <p>O treino a ser realizado dependerá dos seus objetivos, mas para o emagrecimento e para o ganho de massa muscular, o treino deve intercalar, exercícios aeróbicos para o gasto calórico e de resistência para o ganho de massa muscular.</p>
                     <div className='imagem-tela-pequena'>
-                        <img src="../imagensObjetivos/emagrecimento5.png" alt=""/>
+                        <img src="https://i.ibb.co/ft6gYBs/emagrecimento5.png" alt=""/>
                     </div>
                 </div>
                 <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/emagrecimento5.png" alt="" className='imagens-tela-grande' />
+                    <img src="https://i.ibb.co/ft6gYBs/emagrecimento5.png" alt="" className='imagens-tela-grande' />
                 </div>
             </div>
         </div>

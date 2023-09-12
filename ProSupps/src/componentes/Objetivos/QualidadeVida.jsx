@@ -2,6 +2,7 @@ import React from 'react'
 import './Objetivos.css'
 import Header from '../Header'
 import Footer from '../Footer'
+import Pesquisa from '../Inicio/Inicio'
 
 
 const QualidadeVida = () => {
@@ -9,11 +10,12 @@ const QualidadeVida = () => {
         <>
             <div>
                 <Header />
+                <Pesquisa />
             </div>
             <div>
                 <div>
                     <div className='container-banner-qualidade-de-vida'>
-                        <img src="../imagensObjetivos/banner-qualidade-de-vida.jpg" alt="Banner Qualidade de Vida" />
+                        <img src="https://i.ibb.co/2NkDZq4/banner-qualidade-de-vida.jpg" alt="Banner Qualidade de Vida" />
                     </div>
                     <div className='risco-centro'>
                         <div className='risco'/>
@@ -35,11 +37,11 @@ const QualidadeVida = () => {
                                 <p>- Beba pelo menos dois litros <strong>6 a 8 copos</strong> de água por dia</p>
                                 <p>- Evite comer em excesso quando estiver nervoso ou ansioso</p>
                                 <div className='imagem-tela-pequena'>
-                                    <img src="../imagensObjetivos/qualidade-vida.png" alt=""/>
+                                    <img src="https://i.ibb.co/444gxRQ/qualidade-vida.png" alt=""/>
                                 </div>
                             </div>
                             <div className='container-imagem-especifica'>
-                                <img src="../imagensObjetivos/qualidade-vida.png" alt="" className='imagens-tela-grande' />
+                                <img src="https://i.ibb.co/444gxRQ/qualidade-vida.png" alt="" className='imagens-tela-grande' />
                             </div>
                         </div>
                     </div>

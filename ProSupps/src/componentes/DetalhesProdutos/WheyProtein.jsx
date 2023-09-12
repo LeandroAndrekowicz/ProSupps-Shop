@@ -11,12 +11,12 @@ export const WheyProtein = () => {
                 <p>Para ser consumido, o Whey passa por um processo de industrialização que dá a consistência de pó. Como o seu gosto próprio não é lá muito saboroso, costuma-se adicionar sabores de chocolate, baunilha ou morango. Antes de consumir um produto que contém Whey, é importante ler a lista de ingredientes e checar as quantidades de açúcar refinados presente.</p>
             </div>
             <div className='container-imagem-whey-protein'>
-                <img src="../scoop.png" alt="" />
+                <img src="https://i.ibb.co/Ytyz8MY/scoop.png" alt="" />
             </div>
         </div>
         <div className='container-whey-protein'>
             <div className='container-imagem-whey-protein'>
-                <img src="../suplemento-de-proteina.png" alt="" className='imagem-tela-grande'/>
+                <img src="https://i.ibb.co/7Y95DYT/suplemento-de-proteina.png" alt="" className='imagem-tela-grande'/>
             </div>
             <div className='container-texto-whey-protein'>
                 <h2><strong>COMO TOMAR WHEY PROTEIN</strong></h2>
@@ -25,7 +25,7 @@ export const WheyProtein = () => {
                 <p>Portanto, tanto a quantidade a ser consumida, quanto a frequência e quando consumir devem ser orientados por um profissional de saúde de acordo com as condições de saúde, os objetivos e os hábitos da pessoa em questão.</p>
             </div>
             <div className='imagem-tela-pequena'>
-                <img src="../suplemento-de-proteina.png" alt=""/>
+                <img src="https://i.ibb.co/7Y95DYT/suplemento-de-proteina.png" alt=""/>
             </div>
         </div>
         <div className='container-whey-protein-secondary'>
@@ -51,9 +51,6 @@ export const WheyProtein = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div className='container-imagem-secondary'>
-
             </div>
         </div>
     </>

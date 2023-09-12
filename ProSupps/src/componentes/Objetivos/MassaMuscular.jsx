@@ -2,6 +2,7 @@ import React from 'react'
 import './Objetivos.css'
 import Header from '../Header'
 import Footer from '../Footer'
+import Pesquisa from '../Inicio/Inicio'
 
 
 const MassaMuscular = () => {
@@ -9,6 +10,7 @@ const MassaMuscular = () => {
     <div>
         <div>
             <Header />
+            <Pesquisa />
         </div>
         <div className='titulo'>
             <h2>SUPLEMENTOS PARA GANHAR MASSA MUSCULAR</h2>
@@ -32,17 +34,17 @@ const MassaMuscular = () => {
                 <p>- Em caso de dúvidas, procure um médico.</p>
                 <p>No geral, suplementos são seguros, saudáveis e podem ser utilizados por qualquer pessoa. Mas se você ainda não sabe o que funciona para o seu corpo, procure ajuda profissional para ter mais segurança, inclusive na questão alimentar e nos próprios treinos.</p>
                 <div className='imagens-tela-pequena'>
-                    <img src="../imagensObjetivos/massamuscular1.webp" alt="" />
+                    <img src="https://i.ibb.co/fvyxn1X/massamuscular1.webp" alt="" />
                 </div>
             </div>
             <div className='container-imagem-especifica'>
-                <img src="../imagensObjetivos/massamuscular1.webp" alt="" className='imagens-tela-grande' />
+                <img src="https://i.ibb.co/fvyxn1X/massamuscular1.webp" alt="" className='imagens-tela-grande' />
             </div>
         </div>
         <div>
             <div className='container-objetivo-especifico'>
                 <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/massamuscular2.webp" alt="" className='imagens-tela-grande' />
+                    <img src="https://i.ibb.co/dD2g3p6/massamuscular2.webp" alt="" className='imagens-tela-grande' />
                 </div>
                 <div className='container-texto-objetivo-especifico'>
                     <h3>Por quanto tempo eu devo usar um suplemento para ganhar massa muscular?</h3>
@@ -56,7 +58,7 @@ const MassaMuscular = () => {
                     <p>Apesar de ser uma dúvida que todos têm, ela é bem simples de responder. Se você tem treinado e o seu corpo está gastando muita energia, os suplementos ajudam muito, independente se você já tem ou não muitos músculos.</p>
                     <p>Esqueça a ideia de que apenas pessoas musculosas podem tomar Whey Protein e afins. Você também pode começar uma suplementação, desde que ela seja acompanhada por um nutricionista e na dose certa.</p>
                     <div className='imagem-tela-pequena'>
-                        <img src="../imagensObjetivos/massamuscular2.webp" alt=""/>
+                        <img src="https://i.ibb.co/dD2g3p6/massamuscular2.webp" alt=""/>
                     </div>
                 </div>
             </div>
@@ -87,16 +89,19 @@ const MassaMuscular = () => {
                     <p>- O Whey protein também ajuda na disposição e na garantia e em evitar a fadiga. Muitos alunos relatam melhora da disposição para o dia-a-dia, não apenas para treinar, mas também para outros momentos, como trabalhar ou estudar. Isso significa que o Whey é excelente também para a concentração como um todo.</p>
                     <p>Sem dúvidas, o Whey Protein é uma boa alternativa para quem não quer errar na escolha do suplemento alimentar ideal para ganhar massa muscular. Em relação aos horários, é mais comum que os treinadores indiquem o pós-treino para que haja o auxílio na síntese proteica, porém, tudo irá depender do seu treino em específico.</p>
                     <div className='imagens-tela-pequena'>
-                        <img src="../imagensObjetivos/massamuscular3.webp" alt="" />
+                        <img src="https://i.ibb.co/PZDw04T/massamuscular3.webp" alt="" />
                     </div>
                 </div>
                 <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/massamuscular3.webp" alt="" className='imagens-tela-grande' />
+                    <img src="https://i.ibb.co/PZDw04T/massamuscular3.webp" alt="" className='imagens-tela-grande' />
                 </div>
             </div>
         </div>
         <div>
             <div className='container-objetivo-especifico'>
+                <div className='container-imagem-especifica'>
+                    <img src="https://i.ibb.co/sP1BgBp/massamuscular4.webp" alt="" className='imagens-tela-grande' />
+                </div>
                 <div className='container-texto-objetivo-especifico'>
                     <h3>Maltodextrina</h3>
                     <p>A Maltodextrina é um suplemento a base de maltose, uma espécie de molécula de glicose. Esse suplemento é rico em carboidratos, o que o torna um dos preferidos dos atletas que precisam de muita energia na hora de treinar, especialmente quando haverá um aumento significativo da atividade muscular, como um aumento de peso, mais exercícios localizados, etc.</p>
@@ -113,11 +118,8 @@ const MassaMuscular = () => {
                     <p>- Por fim, o zinco e o magnésio são dois minerais que ajudam a acelerar o metabolismo. Logo, o suplemento de ZMA não engorda e ajuda na perda de gordura. Por isso, ele pode também ser usado por mulheres em doses um pouco menores.</p>
                     <p>Em geral, o ZMA não é utilizado sozinho e há sempre um mix entre eles e outros suplementos, como o Whey Protein. Mesmo assim, ele é muito indicado para quem quer melhorar os treinos e ficar mais saudável.</p>
                     <div className='imagens-tela-pequena'>
-                        <img src="../imagensObjetivos/massamuscular4.webp" alt="" />
+                        <img src="https://i.ibb.co/sP1BgBp/massamuscular4.webp" alt="" />
                     </div>
-                </div>
-                <div className='container-imagem-especifica'>
-                    <img src="../imagensObjetivos/massamuscular4.webp" alt="" className='imagens-tela-grande' />
                 </div>
             </div>
             <div className='risco-centro'>

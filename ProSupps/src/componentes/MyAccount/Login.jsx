@@ -16,9 +16,9 @@ export default function () {
   const [failure, setFailure] = useState(false);
 
   useEffect(() =>{
-    axios.get('http://localhost:8080/users/').then((res) =>{
-        setListUsers(res.data);
-    });
+    // axios.get('http://localhost:8080/users/').then((res) =>{
+    //     setListUsers(res.data);
+    // });
   }, []);
 
   //Seta dados que serão salvos no banco
