@@ -1,59 +1,90 @@
 import React, { useEffect, useState } from "react"
 import  './MyAccount.css'
 import Header from '../Header'
-import axios from 'axios'
+import api from '../../service/api.js'
+
+import md5 from 'md5'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function () {
   let [authMode, setAuthMode] = useState("signin");
   const [success, setSuccess] = useState(false);
-  const [data, setData] = useState({
+  const [failure, setFailure] = useState(false);
+
+  const [data, setData] = useState([]);
+  const [usuario, setUsuario] = useState({
     nome: '',
     usuario: '',
     senha: '',
   });
-  const [listUsers, setListUsers] = useState();
-  const [usuario, setUsuario] = useState({});
-  const [failure, setFailure] = useState(false);
 
-  useEffect(() =>{
-    // axios.get('http://localhost:8080/users/').then((res) =>{
-    //     setListUsers(res.data);
-    // });
+
+  useEffect(() => {
+    fetchData();
   }, []);
+  
+  const fetchData = async () => {
+    try {
+      await getUsers();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+  
+  const getUsers = async () => {
+    try {
+      const res = await api.get('/users/');
+      setData(res.data);
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   //Seta dados que serão salvos no banco
-  const handleChangeValues = (data) =>{
-    setData(prevValues => ({
-      ...prevValues,
-      [data.target.name]: data.target.value,
-    }))
-  }
-
-  //Seta dados que serão necessarios para verificar o login
-  const handleChangeLogin = (usuario) =>{
-    setUsuario(prevValues =>({
-        ...prevValues,
-        [usuario.target.name]: usuario.target.value,
-    }))
-  }
+  const handleChangeValues = (event) => {
+    const { name, value } = event.target;
+    setUsuario({ ...usuario, [name]: value });
+  };
 
   //Salva dados no banco
-  const handleClickButton = () =>{
+  const handleClickRegister = async () =>{
     event.preventDefault();
-    axios.post('http://localhost:8080/register/', data).then((res) =>{
-        console.log(res);
-        setSuccess(true);   
-        setFailure(false);
-        if(res.AxiosError.response.status === 422){
-            console.log('Infernooooooooooooo');
+    try{
+        const res = await api.post('/register/', usuario);
+        if(res.data === false){
+            setFailure(true);
+            toast.warn('Email ja cadastrado !', {
+                position: toast.POSITION.TOP_RIGHT
+            });
         }
-    }).catch((err) =>{
+        else{
+            setSuccess(true);
+            setAuthMode('signup')
+        }
+    }
+    catch (err){
         console.log(err);
-    });
+    }
   }
-  console.log(usuario);
 
-  //Verifica se o login esta correto
+  const handleClickLogin = async () =>{
+    event.preventDefault();
+    let senha = md5(usuario.senha)
+    try{
+        data.map((item) =>{
+            if(usuario.usuario === item.usuario && item.senha === senha){
+                console.log('deu boa')
+            }
+            else{
+                
+            }
+        })
+    }
+    catch{
+
+    }
+  } 
 
   const changeAuthMode = () => {
     setAuthMode(authMode === "signin" ? "signup" : "signin")
@@ -64,41 +95,41 @@ export default function () {
         <>
             <Header />
             <div className="Auth-form-container">
-            <form className="Auth-form">
+            <form className="Auth-form" onSubmit={handleClickLogin}>
                 <div className="Auth-form-content">
                     <h3 className="Auth-form-title">Entrar</h3>
-                    <div className="text-center">
+                    <div>
                         Não tem registro?{" "}
                         <span className="link-primary" onClick={changeAuthMode}>
                             Inscrever-se
                         </span>
                     </div>
-                    <div className="form-group mt-3">
+                    <div className="container-linha">
                         <label>Email </label>
                         <input
                             type="email"
-                            className="form-control mt-1"
                             placeholder="E-mail" 
                             name="usuario"
-                            onChange={handleChangeLogin}
+                            value={usuario.usuario}
+                            onChange={handleChangeValues}
                             required/>
                     </div>
-                    <div className="form-group mt-3">
+                    <div className="container-linha">
                         <label>Senha </label>
                         <input
                             type="password"
-                            className="form-control mt-1"
                             placeholder="Senha" 
                             name="senha"
-                            onChange={handleChangeLogin}
+                            value={usuario.senha}
+                            onChange={handleChangeValues}
                             required/>
                     </div>
-                    <div className="d-grid gap-2 mt-3">
-                        <button type="submit" className="btn btn-primary">
-                            Enviar
+                    <div className="button-login">
+                        <button type="submit" className="btn">
+                            Login
                         </button>
                     </div>
-                    <p className="text-center mt-2">
+                    <p className="text-center">
                         Esqueceu a <a href="#">senha?</a>
                     </p>
                 </div>
@@ -112,56 +143,58 @@ export default function () {
     <>
         <Header />
         <div className="Auth-form-container">
-          <form className="Auth-form">
-              <div className="Auth-form-content">
-                  <h3 className="Auth-form-title">Registrar</h3>
-                  <div className="text-center">
-                      Já possui registro?{" "}
-                      <span className="link-primary" onClick={changeAuthMode}>
-                          Entrar
-                      </span>
-                  </div>
-                  <div className="form-group mt-3">
-                      <label>Nome completo</label>
-                      <input
-                          type="text"
-                          className="form-control mt-1"
-                          placeholder="e.g Jane Doe" 
-                          name="nome"
-                          onChange={handleChangeValues}
-                          required/>
-                  </div>
-                  <div className="form-group mt-3">
-                      <label>Email</label>
-                      <input
-                          type="email"
-                          className="form-control mt-1"
-                          placeholder="Email Address" 
-                          name="usuario"
-                          onChange={handleChangeValues}
-                          required/>
-                  </div>
-                  <div className="form-group mt-3">
-                      <label>Senha</label>
-                      <input
-                          type="password"
-                          className="form-control mt-1"
-                          placeholder="Password"
-                          name="senha"
-                          onChange={handleChangeValues}
-                          required/>
-                  </div>
-                  <div className="d-grid gap-2 mt-3">
-                      <button type="submit" className="btn btn-primary" onClick={() => handleClickButton()}>
-                          Enviar
-                      </button>
-                      {success && <p>Cadastrado com sucesso</p>}
-                      {failure && <p>Usuario já está cadastrado</p>}
-                  </div>
-                  <p className="text-center mt-2">
+            <ToastContainer/>
+            <form className="Auth-form" onSubmit={handleClickRegister}>
+                <div className="Auth-form-content">
+                    <h3 className="Auth-form-title">Registrar</h3>
+                    <div>
+                        Já possui registro?{" "}
+                        <span className="link-primary" onClick={changeAuthMode}>
+                            Entrar
+                        </span>
+                    </div>
+                    <div className="container-linha">
+                        <label>Nome </label>
+                        <input
+                        type="text"
+                        placeholder="Nome completo"
+                        name="nome"
+                        value={usuario.nome}
+                        onChange={handleChangeValues}
+                        required
+                        />
+                    </div>
+                    <div className="container-linha">
+                        <label>Email</label>
+                        <input
+                        type="email"
+                        placeholder="Email"
+                        name="usuario"
+                        value={usuario.usuario}
+                        onChange={handleChangeValues}
+                        required
+                        />
+                    </div>
+                    <div className="container-linha">
+                        <label>Senha</label>
+                        <input
+                        type="password"
+                        placeholder="Senha"
+                        name="senha"
+                        value={usuario.senha}
+                        onChange={handleChangeValues}
+                        required
+                        />
+                    </div>
+                    <div className="button-login">
+                        <button type="submit" className="btn">
+                            Cadastrar
+                        </button>
+                    </div>
+                    <p className="text-center">
                       Esqueceu a <a href="#">senha?</a>
                   </p>
-              </div>
+                </div>
           </form>
       </div>
     </>

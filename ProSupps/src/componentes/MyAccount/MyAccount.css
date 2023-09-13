@@ -3,23 +3,31 @@
   .Auth-form-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100vh;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #ebebe3;
   }
-  
+
   .Auth-form {
-    width: 420px;
+    width: 60%;
     box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
     padding-top: 30px;
     padding-bottom: 20px;
     border-radius: 8px;
     background-color: white;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    }
   
   .Auth-form-content {
-    padding-left: 12%;
-    padding-right: 12%;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    display: inline-table;
   }
   
   .Auth-form-title {
@@ -34,4 +42,69 @@
     font-size: 14px;
     font-weight: 600;
     color: rgb(34, 34, 34);
+    text-align: center;
+  }
+
+  .link-primary:hover{
+    cursor: pointer;
+    color: rgb(1, 67, 94);
+  }
+
+  .btn{
+    width: 50%;
+    background-color: #2b2b28de;
+    color: white;
+    appearance: none !important;
+    margin-top: 4vh;
+  }
+
+  .btn:hover{
+    background-color: #2b2b28;
+    color: white;
+    transform: scale(1.07);
+    opacity: .6;
+  }
+
+  .button-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-center{
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .text-center a:hover{
+    cursor: pointer;
+    color: rgb(1, 67, 94);
+  }
+
+  .container-linha{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+    height: 15%;
+  }
+
+  .container-linha input{
+    background-color: #2b2b28de;
+    width: 100%;
+    height: clamp(35px, 1.5em + 1vw, 2.5vw);
+    border-radius: 1em;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+  }
+
+  .container-linha input::placeholder{
+    color: white;
+  }
+
+  .container-linha input:focus{
+    color: white;
   }

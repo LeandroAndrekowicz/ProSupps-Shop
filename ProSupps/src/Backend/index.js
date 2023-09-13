@@ -76,42 +76,41 @@ app.get('/products/pretreino/', (req, res) =>{
 
 //Usuarios
 
+app.post('/register/', (req, res) =>{
+    const {nome} = req.body;
+    const {usuario} = req.body;
+    const {senha} = req.body;
 
-// app.post('/register/', (req, res) =>{
-//     const {nome} = req.body;
-//     const {usuario} = req.body;
-//     const {senha} = req.body;
-
-//     let SQL = "INSERT INTO Usuarios (nome, usuario, senha) VALUES (?, ?, ?);"
-//     try{
-//         db.query(SQL, [nome, usuario, senha], (err, result) =>{
-//             if(err){
-//                 console.log(err);
-//                 return res.status(422).json(err);
-//             }
-//             else{
-//                 return res.json(result)
-//             }
-//         },)
-//     }
-//     catch{
-//         return false;
-//     }
-// })
+    let SQL = "INSERT INTO Usuarios (nome, usuario, senha) VALUES (?, ?, MD5(?));"
+    try{
+        db.query(SQL, [nome, usuario, senha], (err, result) =>{
+            if(err){
+                console.log(err);
+                return res.json(false);
+            }
+            else{
+                return res.json(result)
+            }
+        },)
+    }
+    catch{
+        return res.json(false);
+    }
+})
 
 
-// app.get('/users/', (req, res) =>{
-//     let SQL = "SELECT * FROM Usuarios;"
+app.get('/users/', (req, res) =>{
+    let SQL = "SELECT * FROM Usuarios;"
 
-//     db.query(SQL, (err, result) =>{
-//         if(err){
-//             console.log(err);
-//         }
-//         else{
-//             res.send(result)
-//         }
-//     } )
-// })
+    db.query(SQL, (err, result) =>{
+        if(err){
+            console.log(err);
+        }
+        else{
+            return res.json(result)
+        }
+    } )
+})
 
 
 
